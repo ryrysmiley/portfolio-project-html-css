@@ -7,6 +7,13 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+.no-scroll {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+    .no-scroll::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+}
 p {
     color: rgb(227, 227, 227);
     padding: 10px;
