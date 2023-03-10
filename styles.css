@@ -1,0 +1,195 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #00171F;
+    color: white;
+    scroll-behavior: smooth;
+}
+p {
+    color: rgb(227, 227, 227);
+    padding: 10px;
+    margin: 0;
+}
+/*Nav bar*/
+nav {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #00A7E1;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 14px 16px;
+    text-align: center;
+}
+li a:hover{
+    color: #003459;
+}
+/*Home*/
+.Home {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.HomeContainer {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.HomeHeader {
+    font-size: 125px;
+    padding: 0;
+    margin: 0;
+    color: #00A7E1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.HomeHeader2 {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+/*subheaders*/
+.subheader-box {
+    padding-top: 100px;
+}
+.subheader {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+}
+.BaseContainer:before {
+    content: "";
+    margin-top: 10px;
+    margin-right: 10px;
+    display: block;
+    width: 20%;
+    height: 2px;
+    background-color: white;
+}
+.BaseContainer:after {
+    content: "";
+    margin-top: 5px;
+    margin-left: 10px;
+    display: block;
+    width: 70%;
+    height: 2px;
+    background-color: white;
+}
+.BaseContainer {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00A7E1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*About*/
+.AboutContainer {
+    width: 60%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #001016e1;
+    border-radius: 5px;
+}
+.resumeButtonContainer{
+    text-align: center;
+}
+.Link {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #00A7E1;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Link:hover {
+    background-color: #003459;
+}
+.mePic {
+    display: inline-block;
+    object-fit: scale-down;
+    max-width: 30%;
+    max-height: 30%;
+}
+/*Experience*/
+.ExperienceContainer {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #001016e1;
+    border-radius: 5px;
+    overflow: scroll;
+    padding: 10px;
+}
+.logoIMG{
+    max-width: 75px;
+    max-height: 75px;
+    margin: 20px;
+}
+.CompanyLogo {
+    display: block;
+}
+.CompanyDetails {
+    display: block;
+}
+.experienceCompany{
+    margin: 0;
+    font-weight: bold;
+    color: #00A7E1;
+}
+.experienceTitle {
+    margin: 5px 0px;
+    font-weight: bold;
+    color: #007EA7;
+}
+.experienceDate {
+    margin: 5px 0px;
+    font-weight: bold;
+}
+.CompanyDetails ul{
+    padding: 0;
+    margin: 5px;
+}
+/*Projects*/
+.ProjectsContainer{
+    width: 60%;
+    margin: auto;
+    display: block;
+    justify-content: left;
+    align-items: center;
+    background-color: #001016e1;
+    border-radius: 5px;
+    overflow: scroll;
+    padding: 10px;
+}
