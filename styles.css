@@ -168,7 +168,6 @@ li a:hover{
     background-color: #001016e1;
     border-radius: 5px;
     overflow: scroll;
-    padding: 10px;
 }
 .logoIMG{
     max-width: 75px;
@@ -179,6 +178,7 @@ li a:hover{
     display: block;
 }
 .CompanyDetails {
+    margin: 10px;
     display: block;
 }
 .experienceCompany{
@@ -209,7 +209,6 @@ li a:hover{
     background-color: #001016e1;
     border-radius: 5px;
     overflow: scroll;
-    padding: 10px;
 }
 /*Footer*/
 .footer{
