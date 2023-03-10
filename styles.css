@@ -193,3 +193,22 @@ li a:hover{
     overflow: scroll;
     padding: 10px;
 }
+/*Footer*/
+.footer{
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #001016e1;
+    overflow: scroll;
+    padding: 10px;
+}
+.footer-container{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: #717171;
+    font-size: small;
+}
