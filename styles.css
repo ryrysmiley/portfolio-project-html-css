@@ -7,10 +7,10 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-body::-webkit-scrollbar {
-    -ms-overflow-style: hidden; /* IE and Edge */
-    scrollbar-width: hidden; /* Firefox */
-    display: hidden; /* Chrome, Safari and Opera */
+div::-webkit-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    display: none; /* Chrome, Safari and Opera */
 }
 p {
     color: rgb(227, 227, 227);
