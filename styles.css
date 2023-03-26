@@ -73,23 +73,6 @@ li a:hover{
     padding: 0;
     margin: 0;
 }
-/*smaller headers for smaller screens*/
-@media (max-width: 600px) {
-    .HomeHeader {
-        font-size: 100px;
-    }
-    .HomeHeader2 {
-        font-size: 40px;
-    }
-}
-@media (max-width: 400px) {
-    .HomeHeader {
-        font-size: 60px;
-    }
-    .HomeHeader2 {
-        font-size: 30px;
-    }
-}
 /*subheaders*/
 .subheader-box {
     padding-top: 100px;
@@ -232,4 +215,32 @@ li a:hover{
     margin: auto;
     color: #717171;
     font-size: small;
+}
+/*smaller headers for smaller screens*/
+@media (max-width: 775px) {
+    .AboutContainer {
+        width: 100%;
+    }
+    .ExperienceContainer {
+        width: 100%;
+    }
+    .ProjectsContainer{
+        width: 100%;
+    }
+}
+@media (max-width: 600px) {
+    .HomeHeader {
+        font-size: 100px;
+    }
+    .HomeHeader2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .HomeHeader {
+        font-size: 60px;
+    }
+    .HomeHeader2 {
+        font-size: 30px;
+    }
 }
