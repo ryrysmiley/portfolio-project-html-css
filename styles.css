@@ -217,15 +217,18 @@ li a:hover{
     font-size: small;
 }
 /*smaller headers for smaller screens*/
-@media (max-width: 775px) {
+@media (max-width: 850px) {
     .AboutContainer {
-        width: 100%;
+        width: 80%;
     }
     .ExperienceContainer {
-        width: 100%;
+        width: 80%;
     }
     .ProjectsContainer{
-        width: 100%;
+        width: 80%;
+    }
+    .BaseContainer{
+        width: 80%;
     }
 }
 @media (max-width: 600px) {
@@ -234,6 +237,18 @@ li a:hover{
     }
     .HomeHeader2 {
         font-size: 40px;
+    }
+    .AboutContainer {
+        width: 90%;
+    }
+    .ExperienceContainer {
+        width: 90%;
+    }
+    .ProjectsContainer{
+        width: 90%;
+    }
+    .BaseContainer{
+        width: 90%;
     }
 }
 @media (max-width: 400px) {
